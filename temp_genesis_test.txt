@@ -1,0 +1,11 @@
+04ffff001d01041a49206c6f76652042495448414f2049206c6f766520776f726c64
+algorithm: X11
+merkle hash: c0197e1400e2bd848a7b8d173f38de11ab656bac2bb8f581562885f8b6e5eab4
+pszTimestamp: I love BITHAO I love world
+pubkey: 04a1da2c490c1c06a635236e045fa33cf1ef32959b9c2be675a1224cf751f638b1d23be57fc5cfcd09b4bda886c1b48848fa86c08cef57ab7388d7c24250d38910
+time: 1542616572
+bits: 0x1e0ffff0
+Searching for genesis hash..
+genesis hash found!
+nonce: 135818
+genesis hash: 00000cd65d4da0f5c3b2589cf963c27c251901caed54f2fa9eea4da6dcc1e141

@@ -1,0 +1,22 @@
+[Unit]
+Description=BitHao's distributed currency daemon
+After=network.target
+
+[Service]
+User=bithaoCore
+Group=bithaoCore
+
+Type=forking
+PIDFile=/var/lib/bithaod/bithaod.pid
+ExecStart=/usr/bin/bithaod -daemon -pid=/var/lib/bithaod/bithaod.pid \
+-conf=/etc/bithaoCore/bithao.conf -datadir=/var/lib/bithaod -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

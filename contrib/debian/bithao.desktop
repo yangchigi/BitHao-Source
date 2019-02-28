@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BitHao
+Comment=BitHao P2P Cryptocurrency
+Comment[fr]=BitHao, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitHao, eşten eşe kriptografik sanal para birimi
+Exec=bithao-qt %u
+Terminal=false
+Type=Application
+Icon=bithao128
+MimeType=x-scheme-handler/bithao;
+Categories=Office;Finance;

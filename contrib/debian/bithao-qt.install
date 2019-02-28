@@ -1,0 +1,6 @@
+usr/local/bin/bithao-qt usr/bin
+share/pixmaps/bithao32.xpm usr/share/pixmaps
+share/pixmaps/bithao16.xpm usr/share/pixmaps
+share/pixmaps/bithao128.png usr/share/pixmaps
+debian/bithao-qt.desktop usr/share/applications
+debian/bithao-qt.protocol usr/share/kde4/services/

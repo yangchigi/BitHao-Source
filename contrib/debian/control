@@ -1,0 +1,68 @@
+Source: bithao
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel <holger@bithao.org>
+Uploaders: Holger Schinzel <holger@bithao.org>
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.35),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.35),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.35),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.35),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.35),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.35),
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python
+Standards-Version: 3.9.2
+Homepage: https://www.bithao.io/
+Vcs-Git: git://github.com/monacocoin-net/bithao-core.git
+Vcs-Browser: https://github.com/monacocoin-net/bithao-core
+
+Package: bithaod
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ BitHao is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. BitHao uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. BitHao Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, bithaod, and the CLI tool
+ bithao-cli to interact with the daemon.
+
+Package: bithao-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ BitHao is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. BitHao uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. BitHao Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides BitHao-Qt, a GUI for BitHao based on Qt.
+
+Package: bithao-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ BitHao is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. BitHao uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. BitHao Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides bithao-tx, a command-line transaction creation
+ tool which can be used without a bithao daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.

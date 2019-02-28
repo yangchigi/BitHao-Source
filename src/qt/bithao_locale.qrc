@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bithao_bg.qm</file>
+        <file alias="de">locale/bithao_de.qm</file>
+        <file alias="en">locale/bithao_en.qm</file>
+        <file alias="es">locale/bithao_es.qm</file>
+        <file alias="fi">locale/bithao_fi.qm</file>
+        <file alias="fr">locale/bithao_fr.qm</file>
+        <file alias="it">locale/bithao_it.qm</file>
+        <file alias="ja">locale/bithao_ja.qm</file>
+        <file alias="pl">locale/bithao_pl.qm</file>
+        <file alias="pt">locale/bithao_pt.qm</file>
+        <file alias="ru">locale/bithao_ru.qm</file>
+        <file alias="sk">locale/bithao_sk.qm</file>
+        <file alias="sv">locale/bithao_sv.qm</file>
+        <file alias="vi">locale/bithao_vi.qm</file>
+        <file alias="zh_CN">locale/bithao_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bithao_zh_TW.qm</file>
+    </qresource>
+</RCC>
